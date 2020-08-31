@@ -25,6 +25,6 @@ export class AdminAuthGaurd implements CanActivate {
     /*return this.auth.user$.switchMap(user => 
     this.userService.get(user.uid))*/
     return this.auth.appUser$.map/*<extra front bracket>(*/(appUser /*:any)*/ => appUser.isAdmin);
- }
+ }//pepe
 
 }
