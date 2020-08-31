@@ -1,0 +1,2 @@
+Home page - 2 async operations so which will work first ? we got to see
+Information expert principal aka GRASP
